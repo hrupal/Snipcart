@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.5560" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-11-10T10:54:23" tests="0" file="cypress\integration\productSelections\selectProduct.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Product selection test - " timestamp="2020-11-10T10:54:23" tests="5" time="1.5560" failures="0">
+    <testcase name="Product selection test -  Given I navigate to Snipcart site" time="0.5480" classname="Given I navigate to Snipcart site">
+    </testcase>
+    <testcase name="Product selection test -  When I select a product" time="0.1590" classname="When I select a product">
+    </testcase>
+    <testcase name="Product selection test -  Then I assert available product colors" time="0.7780" classname="Then I assert available product colors">
+    </testcase>
+    <testcase name="Product selection test -  And I assert styles for buy button" time="0.0550" classname="And I assert styles for buy button">
+    </testcase>
+    <testcase name="Product selection test -  Then I assert url contains right product name" time="0.0160" classname="Then I assert url contains right product name">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,38 @@
+{
+  "name": "website-ui-cypress-tests",
+  "version": "1.0.0",
+  "description": "ui cypress automation tests for snipcart functionality",
+  "main": "index.js",
+  "repository": "https://test",
+  "author": "harpreet singh",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "yarn cypress open",
+    "cy:run": "yarn cypress run --browser chrome --spec 'cypress/integration/**/*.feature'",
+    "cy:run_smoketests": "yarn cypress-tags run --browser chrome --headless -e TAGS=\"@smoketests\"",
+    "cy:run_smoketests_headless": "yarn cypress-tags run --browser chrome --headless -e TAGS=\"@smoketests\"",
+    "cy:verify": "yarn cypress verify",
+    "cy:report": "yarn cypress run --reporter cypress-multi-reporters --reporter-options configFile=reporter-config.json"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@cypress/browserify-preprocessor": "3.0.1",
+    "@testing-library/cypress": "^7.0.1",
+    "async": "^3.2.0",
+    "concurrently": "5.1.0",
+    "cypress": "5.3.0",
+    "cypress-failed-log": "2.7.0",
+    "cypress-file-upload": "4.1.1",
+    "cypress-multi-reporters": "^1.4.0",
+    "cypress-xpath": "1.4.0",
+    "mocha-junit-reporter": "^2.0.0",
+    "tsify": "5.0.2",
+    "typescript": "4.0.3",
+    "webpack": "4.35.2",
+    "webpack-build-config": "2.0.0",
+    "webpack-cli": "3.3.6",
+    "webpack-dev-server": "3.7.2",
+    "webpack-merge": "4.2.1",
+    "webpack-node-externals": "1.7.2"
+  }
+}

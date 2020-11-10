@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.6500" tests="19" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-11-10T10:54:01" tests="0" file="cypress\integration\productOrders\productOrder.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Buy any product and go to My cart - " timestamp="2020-11-10T10:54:01" tests="19" time="19.6500" failures="0">
+    <testcase name="Buy any product and go to My cart -  Given I navigate to Snipcart site" time="5.3280" classname="Given I navigate to Snipcart site">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  When I select a product" time="0.1380" classname="When I select a product">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I buy a product" time="3.1900" classname="And I buy a product">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I assert color and price displayed correctly" time="1.9410" classname="And I assert color and price displayed correctly">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I click on next step" time="0.1560" classname="And I click on next step">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I check out" time="0.1110" classname="And I check out">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I enter billling address" time="2.6730" classname="And I enter billling address">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I click on next step" time="0.1120" classname="And I click on next step">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I assert shipping method names" time="1.2760" classname="And I assert shipping method names">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I assert shipping method prices" time="0.0340" classname="And I assert shipping method prices">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I click on next step" time="0.0970" classname="And I click on next step">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I enter payment info" time="1.7680" classname="And I enter payment info">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I click on next step" time="0.1030" classname="And I click on next step">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I assert billing address" time="0.0530" classname="And I assert billing address">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I assert shipping address" time="0.0500" classname="And I assert shipping address">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I assert payment information" time="0.0770" classname="And I assert payment information">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  And I assert total including shipping" time="0.0410" classname="And I assert total including shipping">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  When I place order" time="0.0960" classname="When I place order">
+    </testcase>
+    <testcase name="Buy any product and go to My cart -  Then I assert order" time="2.4060" classname="Then I assert order">
+    </testcase>
+  </testsuite>
+</testsuites>

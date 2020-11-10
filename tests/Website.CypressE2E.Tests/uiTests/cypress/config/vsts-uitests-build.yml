@@ -1,0 +1,21 @@
+jobs:
+  - job:
+    displayName: Install dependencies and run cypress ui smoke tests
+    pool:
+        vmImage: 'Ubuntu-latest'
+    steps:
+        - task: CmdLine@2
+          displayName: 'Run yarn install'
+        #to do 
+        - task: CmdLine@2
+          displayName: 'Cypress verify'
+          #to do 
+        - task: CmdLine@2          
+          displayName: 'Run_Cypress_tests'
+          #to do 
+        - task: PublishBuildArtifacts@1
+          displayName: Publish Artifacts2 screenshots
+          #to do 
+        - task: PublishBuildArtifacts@1
+          displayName: Publish Artifacts logs
+          #to do 

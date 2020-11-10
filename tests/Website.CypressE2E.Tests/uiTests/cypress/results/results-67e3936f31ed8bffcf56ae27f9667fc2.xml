@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.6440" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-11-10T10:53:58" tests="0" file="cypress\integration\APITests\specificDateForeignExchangeRates.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Assert Specific Dates Foreign Exchange rates with symbols -" timestamp="2020-11-10T10:53:58" tests="2" time="0.2050" failures="0">
+    <testcase name="Assert Specific Dates Foreign Exchange rates with symbols - I send request to specific Foreign Exchange rates api  with symbols" time="0.1810" classname="I send request to specific Foreign Exchange rates api  with symbols">
+    </testcase>
+    <testcase name="Assert Specific Dates Foreign Exchange rates with symbols - I assert specific dates Foreign Exchange rates api  with symbols responses -" time="0.0240" classname="I assert specific dates Foreign Exchange rates api  with symbols responses -">
+    </testcase>
+  </testsuite>
+  <testsuite name="Assert Specific Dates Foreign Exchange rates with base - " timestamp="2020-11-10T10:53:59" tests="2" time="0.2540" failures="0">
+    <testcase name="Assert Specific Dates Foreign Exchange rates with base -  I send request to Specific Dates Foreign Exchange rates api  with base" time="0.2280" classname="I send request to Specific Dates Foreign Exchange rates api  with base">
+    </testcase>
+    <testcase name="Assert Specific Dates Foreign Exchange rates with base -  I assertSpecific Dates Foreign Exchange rates api  with base responses" time="0.0260" classname="I assertSpecific Dates Foreign Exchange rates api  with base responses">
+    </testcase>
+  </testsuite>
+  <testsuite name="Assert Specific Date Foreign Exchange rates with symbols and base - " timestamp="2020-11-10T10:53:59" tests="2" time="0.1850" failures="0">
+    <testcase name="Assert Specific Date Foreign Exchange rates with symbols and base -  I send request to Specific Dates Foreign Exchange rates api  with symbols base" time="0.1670" classname="I send request to Specific Dates Foreign Exchange rates api  with symbols base">
+    </testcase>
+    <testcase name="Assert Specific Date Foreign Exchange rates with symbols and base -  I assert Specific Date Foreign Exchange rates api  with symbols and base responses" time="0.0180" classname="I assert Specific Date Foreign Exchange rates api  with symbols and base responses">
+    </testcase>
+  </testsuite>
+</testsuites>

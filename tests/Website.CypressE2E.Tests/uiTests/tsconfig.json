@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "allowJs": true,
+    "checkJs": false,
+    "baseUrl": "../node_modules",
+    "outDir": "./ConvertedJSFiles",   
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "cypress"
+    ],
+    "lib": [
+      "es2015",
+      "es6",
+      "dom"
+    ]
+  },
+  "include": [
+    "**/*.*"
+  ],
+  "exclude": [
+    "node_modules",
+    "cache"
+  ]
+  
+}

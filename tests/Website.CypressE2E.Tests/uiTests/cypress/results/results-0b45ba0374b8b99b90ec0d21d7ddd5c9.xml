@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.6790" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-11-10T10:53:56" tests="0" file="cypress\integration\APITests\latestForeignExchangeRates.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Assert Latest Foreign Exchange rates with symbols - " timestamp="2020-11-10T10:53:56" tests="2" time="0.3320" failures="0">
+    <testcase name="Assert Latest Foreign Exchange rates with symbols -  I send request to Latest Foreign Exchange rates api  with symbols" time="0.3100" classname="I send request to Latest Foreign Exchange rates api  with symbols">
+    </testcase>
+    <testcase name="Assert Latest Foreign Exchange rates with symbols -  I assert Latest Foreign Exchange rates api  with symbols responses" time="0.0220" classname="I assert Latest Foreign Exchange rates api  with symbols responses">
+    </testcase>
+  </testsuite>
+  <testsuite name="Assert latest Foreign Exchange rates with base - " timestamp="2020-11-10T10:53:57" tests="2" time="0.2610" failures="0">
+    <testcase name="Assert latest Foreign Exchange rates with base -  I send request to specific Foreign Exchange rates api  with base" time="0.2450" classname="I send request to specific Foreign Exchange rates api  with base">
+    </testcase>
+    <testcase name="Assert latest Foreign Exchange rates with base -  I assert Latest Foreign Exchange rates api  with base responses" time="0.0160" classname="I assert Latest Foreign Exchange rates api  with base responses">
+    </testcase>
+  </testsuite>
+  <testsuite name="Assert latest Foreign Exchange rates with symbols and base - " timestamp="2020-11-10T10:53:57" tests="2" time="0.0860" failures="0">
+    <testcase name="Assert latest Foreign Exchange rates with symbols and base -  I send request to latest Foreign Exchange rates api  with symbols base" time="0.0730" classname="I send request to latest Foreign Exchange rates api  with symbols base">
+    </testcase>
+    <testcase name="Assert latest Foreign Exchange rates with symbols and base -  I assert Latest Foreign Exchange rates api  with symbols and base responses" time="0.0130" classname="I assert Latest Foreign Exchange rates api  with symbols and base responses">
+    </testcase>
+  </testsuite>
+</testsuites>

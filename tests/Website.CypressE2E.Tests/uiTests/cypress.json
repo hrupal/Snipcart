@@ -1,0 +1,29 @@
+{
+  "baseUrl": "https://snipcart-react-gatsby.netlify.app",
+  "apiBaseUrl":"https://api.ratesapi.io/api",
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  },
+  "testFiles": "**/*.ts",
+  "ignoreTestFiles": "*.js", 
+  "watchForFileChanges": false,
+  "video": false,  
+  "chromeWebSecurity": false,
+  "numTestsKeptInMemory": 0,
+  "modifyObstructiveCode": false,
+  "pageLoadTimeout": 120000,
+  "defaultCommandTimeout": 30000,
+  "viewportWidth": 1024,
+  "viewportHeight": 768,
+  "responseTimeout": 60000,
+  "waitAfterEachCommand": 500,
+  "screenshotsFolder": "cypress/screenshots",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
+}

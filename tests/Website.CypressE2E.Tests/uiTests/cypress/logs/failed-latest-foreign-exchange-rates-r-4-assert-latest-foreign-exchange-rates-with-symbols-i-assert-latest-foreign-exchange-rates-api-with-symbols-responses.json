@@ -1,0 +1,9 @@
+{
+  "specName": "latestForeignExchangeRates.spec.ts",
+  "title": "I assert Latest Foreign Exchange rates api  with symbols responses",
+  "suiteName": "Assert Latest Foreign Exchange rates with symbols - ",
+  "testId": "r4",
+  "testName": "Assert Latest Foreign Exchange rates with symbols -  I assert Latest Foreign Exchange rates api  with symbols responses",
+  "testError": "Cypress.assertLatestRatesResponses is not a function",
+  "testCommands": []
+}
