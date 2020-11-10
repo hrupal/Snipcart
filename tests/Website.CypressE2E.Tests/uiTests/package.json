@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ui cypress automation tests for snipcart functionality",
   "main": "index.js",
-  "repository": "https://test",
+  "repository": "https://github.com/hrupal/Snipcart",
   "author": "harpreet singh",
   "license": "MIT",
   "scripts": {
